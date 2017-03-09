@@ -1,0 +1,46 @@
+[INFO] Scanning for projects...
+Downloading: http://maven.firstshare.cn/artifactory/plugins-release//org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-2/maven-assembly-plugin-2.2-beta-2.pom
+4/16K8/16K12/16K13/16K16/16K16K downloaded  (maven-assembly-plugin-2.2-beta-2.pom)
+Downloading: http://maven.firstshare.cn/artifactory/plugins-release//org/apache/maven/plugins/maven-plugins/8/maven-plugins-8.pom
+4/5K5/5K5K downloaded  (maven-plugins-8.pom)
+Downloading: http://maven.firstshare.cn/artifactory/plugins-release//org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-2/maven-assembly-plugin-2.2-beta-2.jar
+4/184K8/184K12/184K13/184K17/184K21/184K25/184K27/184K31/184K35/184K39/184K43/184K44/184K48/184K52/184K56/184K60/184K64/184K68/184K72/184K76/184K80/184K84/184K88/184K91/184K95/184K99/184K102/184K106/184K110/184K114/184K118/184K122/184K125/184K129/184K133/184K134/184K138/184K142/184K142/184K146/184K150/184K152/184K156/184K160/184K164/184K168/184K172/184K176/184K180/184K184/184K184/184K184K downloaded  (maven-assembly-plugin-2.2-beta-2.jar)
+Downloading: http://maven.firstshare.cn/artifactory/plugins-release//org/apache/maven/plugins/maven-surefire-plugin/2.4.3/maven-surefire-plugin-2.4.3.pom
+4/6K6/6K6K downloaded  (maven-surefire-plugin-2.4.3.pom)
+Downloading: http://maven.firstshare.cn/artifactory/plugins-release//org/apache/maven/surefire/surefire/2.4.3/surefire-2.4.3.pom
+4/7K7/7K7K downloaded  (surefire-2.4.3.pom)
+Downloading: http://maven.firstshare.cn/artifactory/plugins-release//org/apache/maven/plugins/maven-surefire-plugin/2.4.3/maven-surefire-plugin-2.4.3.jar
+4/22K8/22K10/22K14/22K18/22K22/22K22/22K22K downloaded  (maven-surefire-plugin-2.4.3.jar)
+[INFO] Searching repository for plugin with prefix: 'dependency'.
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Unnamed - com.facishare.open:fs-open-av-provider:war:0.0.1
+[INFO]    task-segment: [dependency:tree]
+[INFO] ------------------------------------------------------------------------
+[INFO] snapshot com.facishare.open:fs-open-common-result:0.0.1-SNAPSHOT: checking for updates from release
+[INFO] snapshot com.facishare.open:fs-open-common:0.0.1-SNAPSHOT: checking for updates from release
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD ERROR
+[INFO] ------------------------------------------------------------------------
+[INFO] Failed to resolve artifact.
+
+Unable to get dependency information: Unable to read the metadata file for artifact 'com.google.code.gson:gson:jar': Invalid JDK version in profile 'doclint-java8-disable': Unbounded range: [1.8, for project com.google.code.gson:gson
+  com.google.code.gson:gson:jar:2.3
+
+from the specified remote repositories:
+  central (http://repo1.maven.org/maven2),
+  release (http://maven.firstshare.cn/artifactory/libs-release),
+  snapshot (http://maven.firstshare.cn/artifactory/libs-snapshot)
+
+Path to dependency: 
+	1) com.facishare.open:fs-open-av-provider:war:0.0.1
+	2) com.facishare.open:fs-open-common-utils:jar:0.0.4-SNAPSHOT
+
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] For more information, run Maven with the -e switch
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 29 seconds
+[INFO] Finished at: Wed Jul 13 16:09:33 CST 2016
+[INFO] Final Memory: 12M/123M
+[INFO] ------------------------------------------------------------------------
